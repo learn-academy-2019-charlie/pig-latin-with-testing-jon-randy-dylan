@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Pig Latin Translator</title>
+        <link rel="stylesheet"
+        type="text/css"
+        href="piglatin.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" >
+    </head>
+    <body>
+        <div class="jumbotron jumbotron-fluid" style="background-image:url(https://media.giphy.com/media/HV6uVZWJDJ42c/giphy.gif);">
+</div>
+        <h1 style="text-align: center">Pig Latin Translator</h1>
+        <div style="text-align: center">
+            <textarea placeholder="What do you want to say?" style="width: 1000px; height: 200px; text-align:center; font-size: 30px;" type="textbox" id="user-input"></textarea>
+            <br>
+            <h6>Click Waddles To Translate!</h6>
+            <button type="button" name="button" onClick="buttonClick();  playSound()" style="background-image:url(data:image/png;base64,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)"></button>
+            <audio id="play" src="http://www.mattersofgrey.com/audio/Minecraft-zpighurt1.mp3"></audio>
+        </div>
+
+        <h2 style="text-align: center">What Pigs Say!</h2>
+        <div style="text-align: center">
+            <textarea placeholder="Output here" id="user-output" type="textbox" style="width: 1000px; height: 200px; text-align:center; font-size: 30px;"></textarea>
+        </div>
+        <h3>
+            <h5 style="text-align: center">Rules of Pig Latin
+            </h5>
+            <div class="container">
+                <ul class="list-group list-group-flush" style="text-align: center">
+                  <li class="list-group-item">For words beginning with a vowel, add "way" to the end.</li>
+                  <li class="list-group-item">For words beginning with one or more consonants, move all of the first consecutive consonants to the end, and add "ay".</li>
+                  <li class="list-group-item">If the first consonants include "qu", move the "u" along with the "q". Don't forget about words like "squeal" where "qu" doesn't come first!</li>
+                  <li class="list-group-item">For words beginning with "y", treat "y" as a consonant.</li>
+                </ul>
+            </div>
+        </h3>
+        <script type="text/javascript" src="piglatin.test.js"></script>
+    </body>
+</html>

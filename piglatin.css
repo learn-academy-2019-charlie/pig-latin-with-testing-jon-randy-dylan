@@ -1,0 +1,79 @@
+body {
+    background-color: powderblue !important;
+}
+
+h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 45px !important;
+    letter-spacing: 0.4px;
+    word-spacing: 1.4px;
+    color: DeepPink;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    margin-bottom: 20px !important;
+}
+
+h2 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 35px !important;
+    letter-spacing: 0.4px;
+    word-spacing: 1.4px;
+    color: DeepPink;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    margin-bottom: 20px !important;
+}
+
+h5 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 25px;
+    letter-spacing: 0.4px;
+    word-spacing: 1.4px;
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    margin-bottom: 20px !important;
+    text-decoration: underline;
+}
+
+h6 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px !important;
+    letter-spacing: 0.4px;
+    word-spacing: 1.4px;
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    margin-bottom: 5px !important;
+}
+button {
+    margin-bottom: 20px !important;
+    height: 50px;
+    width: 50px;
+}
+.container {
+    width:1050px !important;
+    text-align: center !important;
+}
+ul li {
+    background-color: #ff9999 !important;
+    padding: 60px;
+    display: inline-block !important;
+    text-align: left !important;
+
+}
+ul {
+    margin-bottom: 100px !important;
+}
